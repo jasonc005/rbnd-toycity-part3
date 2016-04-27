@@ -19,6 +19,10 @@ class Customer
     @@customers.find {|cus| cus.name == to_find}
   end
 
+  def purchase(product)
+    Transaction.new(self,product)
+  end
+
   private
 
   #Used in initialize to make sure customer doesn't already exist

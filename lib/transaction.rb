@@ -20,4 +20,9 @@ class Transaction
     @@transactions
   end
 
+  #Finds and returns transaction by number
+  def self.find(index)
+    @@transactions.find {|trans| trans.id == index}
+  end
+
 end
