@@ -1,5 +1,6 @@
 class Product
-  attr_reader :title, :price, :stock
+  attr_reader :title
+  attr_accessor :price, :stock
 
   @@products = []
 
