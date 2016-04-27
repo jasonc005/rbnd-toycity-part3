@@ -1,0 +1,11 @@
+I probably spent about 3-4 hours working on this project. I'd say the most rewarding
+challenge I conquered was figuring out how to check for an existing instance of
+Customer and Product objects to throw an error. This furthered my understanding of
+arrays and the methods they have to make them more useful, something I hope to be
+able to use in future products. The two additional features I built were class
+methods for Transaction; one to allow for finding all transactions by associated
+customer and one for finding by product. I feel that these could both be very useful
+for tracking customer habits or how well products are selling. I think I can still
+grow in the area of further exploring array methods to improve the ways in which I
+use them, and possibly get ideas for interesting ways to implement them in future
+program features.
