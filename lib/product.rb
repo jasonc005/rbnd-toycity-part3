@@ -30,6 +30,13 @@ class Product
     end
   end
 
+  #Returns an array of all products in stock
+  def self.in_stock
+    products_in_stock = []
+    @@products.each {|prod| products_in_stock << prod if prod.in_stock?}
+    products_in_stock
+  end
+
   private
 
   #Used in initialize to make sure product doesn't already exist
