@@ -25,4 +25,14 @@ class Transaction
     @@transactions.find {|trans| trans.id == index}
   end
 
+  #Finds all Transactions by the customer involved
+  def self.find_by_customer(customer)
+    @@transactions.select {|trans| trans.customer.name == customer.name}
+  end
+
+  #Finds all Transactions by product involved
+  def self.find_by_product(product)
+    @@transactions.select {|trans| trans.product.title == product.title}
+  end
+
 end
